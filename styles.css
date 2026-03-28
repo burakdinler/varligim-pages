@@ -1,28 +1,9 @@
-body {
-  background-color: var(--bs-tertiary-bg);
-}
-
-.page-shell {
-  max-width: 860px;
-}
-
 .starter-template {
   padding: 3rem 0;
 }
 
-.section-card {
-  background: var(--bs-body-bg);
-  border: 1px solid var(--bs-border-color);
-  border-radius: 1rem;
-  padding: 1.5rem;
-}
-
-.section-card + .section-card,
-.policy-section + .policy-section {
-  margin-top: 1.25rem;
-}
-
-.support-note {
+.support-note,
+.meta-note {
   color: var(--bs-secondary-color);
   font-size: 0.95rem;
 }
@@ -33,11 +14,10 @@ body {
   gap: 0.75rem;
 }
 
-.policy-section h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+.content-section + .content-section {
+  margin-top: 2.5rem;
 }
 
-.policy-section ul li + li {
+.content-section ul li + li {
   margin-top: 0.4rem;
 }
