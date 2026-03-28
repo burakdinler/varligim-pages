@@ -13,3 +13,4 @@ Deployment notes:
 - Enable GitHub Pages from the repository root on the default branch.
 - Keep the `CNAME` file so the site serves from `varligim.app`.
 - The iOS app already links to `https://varligim.app/privacy` and `https://varligim.app/terms`.
+- Public support and page feedback are routed through GitHub Issues instead of email links.
